@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(95deg, #642b73, #C6426E );
+  margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+  display: flex;
+
+}
+.card{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 400px;
+    background: linear-gradient(95deg, #E8CBC0, #636FA4);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+
+
+
+
+.card_img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    padding: 25px;
+} 
+
+
+
+.card_button{
+    margin-top: 20px;
+    width: 300px;
+    height:35px;
+    color: white;
+    background: linear-gradient(95deg, #642b73, #C6426E );
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+
+    }
+    
+.card_description{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+
+}
+
+.card_button:hover{
+    
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2rem;
+    color:  0 0 5px #79edfe, 0 0 10px #48f0fc, 0 0 15px #4ae9fa;;
+    text-shadow: 0 0 5px #37ebff, 0 0 10px #35d6f6, 0 0 15px #29daf6;
+    filter: drop-shadow(1px 10px 15px rgba(95, 225, 248, 0.973));
+
+}
+
+
+
+
+
+
+
+
